@@ -1,0 +1,38 @@
+:root {
+    --c1: hsl(205, 0%, 98%);
+    --reference-item-background: hsl(0, 0%, 12%);
+    --page-background-color: hsl(0, 0%, 8%);
+}
+
+.rm-embed-container {
+    background-color: #2b3033 !important;
+}
+
+body,
+.roam-body,
+.roam-app,
+.rm-pages-title-text {
+    color: var(--c1) !important;
+}
+
+html,
+body,
+#app {
+    background: var(--page-background-color) !important;
+}
+
+div.roam-article span>a.rm-alias--external:after {
+    background-color: var(--accent-color);
+}
+
+.rm-page-ref-link-color,
+.rm-page-ref--link,
+.rm-ref-page-view-title>a,
+.rm-alias,
+.rm-alias--external {
+    color: var(--accent-color) !important;
+}
+
+.rm-reference-item {
+    background: var(--reference-item-background) !important;
+}
