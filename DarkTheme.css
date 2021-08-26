@@ -1,7 +1,14 @@
 :root {
-    --c1: hsl(205, 0%, 98%);
-    --reference-item-background: hsl(0, 0%, 12%);
-    --page-background-color: hsl(0, 0%, 8%);
+    --title: hsl(0, 0%, 100%);
+    --body: hsl(0, 0%, 90%);
+    --reference-item-background: hsl(0, 0%, 14%);
+    --subtle-border-color: rgba(255, 255, 255, 0.07);
+    --page-background-color: hsl(0, 0%, 10%);
+    --secondary-background-color: hsl(0, 0%, 18%);
+}
+
+.roam-table {
+    overflow: auto;
 }
 
 .rm-embed-container {
@@ -12,13 +19,26 @@ body,
 .roam-body,
 .roam-app,
 .rm-pages-title-text {
-    color: var(--c1) !important;
+    color: var(--body) !important;
 }
 
 html,
 body,
 #app {
     background: var(--page-background-color) !important;
+}
+
+.rm-query {
+    border: 1px solid var(--subtle-border-color);
+}
+
+.rm-query .rm-query-title {
+    background-color: var(--secondary-background-color);
+    color: var(--c1);
+}
+
+h1 {
+    color: var(--title) !important;
 }
 
 div.roam-article span>a.rm-alias--external:after {
