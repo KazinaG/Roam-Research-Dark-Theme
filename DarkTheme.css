@@ -1,10 +1,19 @@
 :root {
     --title: hsl(0, 0%, 100%);
+    --c2: hsl(0, 0%, 50%);
+    --c3: #9E9E9E;
     --body: hsl(0, 0%, 90%);
     --reference-item-background: hsl(0, 0%, 14%);
     --subtle-border-color: rgba(255, 255, 255, 0.07);
     --page-background-color: hsl(0, 0%, 10%);
     --secondary-background-color: hsl(0, 0%, 18%);
+    --popup-background-color: hsl(0, 0%, 16%);
+    --highlight-color: hsl(51, 61%, 22%)
+}
+
+.rm-highlight,
+.block-highlight-yellow {
+    background-color: var(--highlight-color) !important;
 }
 
 .roam-table {
@@ -15,11 +24,24 @@
     background-color: #2b3033 !important;
 }
 
+.bp3-datepicker {
+    background: var(--popup-background-color) !important;
+}
+
+.bp3-html-select select,
+.bp3-select select {
+    color: var(--body) !important;
+}
+
 body,
 .roam-body,
 .roam-app,
 .rm-pages-title-text {
     color: var(--body) !important;
+}
+
+.bp3-button:not(.bp3-intent-primary) {
+    color: var(--c2) !important;
 }
 
 html,
@@ -55,4 +77,31 @@ div.roam-article span>a.rm-alias--external:after {
 
 .rm-reference-item {
     background: var(--reference-item-background) !important;
+}
+
+.rm-bq {
+    background-color: var(--secondary-background-color) !important;
+    border-left-color: var(--c3) !important;
+}
+
+.bp3-elevation-3,
+.confirmation-content-dialog,
+.bp3-dialog {
+    background: var(--popup-background-color) !important;
+}
+
+.bp3-elevation-3 div.dont-unfocus-block[style*=background] {
+    background: var(--secondary-background-color) !important;
+}
+
+.rm-inline-references {
+    background-color: var(--secondary-background-color) !important;
+    border-left-color: var(--c3) !important;
+}
+
+
+/* .bp3-menu, */
+
+.bp3-popover .bp3-popover-content {
+    background-color: var(--popup-background-color) !important;
 }
