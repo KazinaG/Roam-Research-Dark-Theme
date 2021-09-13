@@ -22,6 +22,7 @@
 }
 
 .bp3-datepicker,
+.DayPicker-Day--outside:hover,
 .bp3-popover-content {
     background: var(--background3) !important;
 }
@@ -94,9 +95,19 @@ a {
     border-right: 2px solid var(--border2) !important;
 }
 
+.roam-table th,
+.roam-table td,
+.roam-table tr {
+    border: 1px solid var(--border2) !important;
+}
+
 
 /* Table */
 
 .roam-table {
-    overflow: auto !important;
+    overflow: auto;
+}
+
+.roam-table td {
+    overflow: auto;
 }
