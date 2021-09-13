@@ -17,7 +17,7 @@
 }
 
 .roam-table {
-    overflow: auto;
+    overflow: auto !important;
 }
 
 .rm-embed-container {
