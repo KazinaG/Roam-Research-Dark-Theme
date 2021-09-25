@@ -56,7 +56,9 @@
 
 .flex-h-box,
 .DayPicker-Day,
-.DayPicker-Weekday {
+.DayPicker-Weekday,
+.bp3-menu-item-label,
+.bp3-text-overflow-ellipsis {
     color: var(--text) !important;
 }
 
