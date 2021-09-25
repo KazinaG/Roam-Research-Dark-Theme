@@ -26,7 +26,8 @@
 
 .bp3-datepicker,
 .DayPicker-Day--outside:hover,
-.bp3-popover-content {
+.bp3-popover-content,
+.bp3-menu {
     background: var(--background3) !important;
 }
 
