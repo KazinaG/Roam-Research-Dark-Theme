@@ -13,7 +13,14 @@
 
 /* Background */
 
-.roam-app,
+.roam-body,
+.roam-app {
+    background: var(--background) !important;
+}
+
+
+/* old */
+
 .rm-reference-item,
 .rm-embed-container,
 .flex-v-box,
