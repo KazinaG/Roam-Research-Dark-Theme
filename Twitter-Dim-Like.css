@@ -14,7 +14,8 @@
 /* Background */
 
 .roam-body,
-.roam-app {
+.roam-app,
+.roam-sidebar-container {
     background: var(--background) !important;
 }
 
