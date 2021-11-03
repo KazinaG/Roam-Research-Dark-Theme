@@ -1,6 +1,7 @@
 :root {
     --accent: #1C9BF0;
     --background: #15202B;
+    --background-search: #253341;
     --background2: #1C2732;
     --background3: #1A2734;
     --highlight: hsl(51, 61%, 22%);
@@ -15,8 +16,13 @@
 
 .roam-body,
 .roam-app,
-.roam-sidebar-container {
+.roam-sidebar-container,
+#right-sidebar {
     background: var(--background) !important;
+}
+
+.bp3-input {
+    background: var(--background-search) !important;
 }
 
 
@@ -27,7 +33,6 @@
 .flex-v-box,
 .bp3-elevation-3,
 .rm-zoom-mask,
-#right-sidebar,
 .rm-inline-references {
     background: var(--background) !important;
 }
