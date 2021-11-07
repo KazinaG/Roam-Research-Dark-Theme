@@ -27,15 +27,14 @@
     background: var(--background-search) !important;
 }
 
-.rm-reference-item {
+.rm-reference-item,
+.rm-embed-container {
     background: var(--background-reference) !important;
 }
 
 
 /* old */
 
-.rm-reference-item,
-.rm-embed-container,
 .flex-v-box,
 .bp3-elevation-3,
 .rm-zoom-mask,
