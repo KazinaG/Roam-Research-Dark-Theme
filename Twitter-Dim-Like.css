@@ -43,6 +43,14 @@ svg[id^="mermaid"] {
     background: var(--background-mermaid) !important;
 }
 
+.rm-code-block {
+    background: var(--background) !important;
+}
+
+.cm-focused .cm-activeLine {
+    background: var(--background-reference) !important;
+}
+
 
 /* Text */
 
