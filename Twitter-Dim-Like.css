@@ -7,7 +7,7 @@
     --background-mermaid: #ffffff;
     /* Text */
     --text: #ffffff;
-    --text-search: #8899A6;
+    --text-search-placeholder: #8899A6;
     /* Boarder */
     --multibar: #3D5466;
     /* old */
@@ -56,13 +56,23 @@ svg[id^="mermaid"] {
 
 .roam-body,
 .roam-app,
-.rm-title-display {
+.rm-title-display,
+#find-or-create-input {
     color: var(--text) !important;
 }
 
 .bp3-input::placeholder,
 .bp3-input-group>.bp3-icon {
-    color: var(--text-search) !important;
+    color: var(--text-search-placeholder) !important;
+}
+
+
+/* Link Text */
+
+.rm-page-ref,
+.rm-alias,
+.rm-page__title {
+    color: var(--accent) !important;
 }
 
 
@@ -136,8 +146,6 @@ svg[id^="mermaid"] {
 
 .rm-page-ref-link-color,
 .rm-page-ref--link,
-.rm-page__title,
-.rm-alias,
 .rm-alias--external,
 a {
     color: var(--accent) !important;
