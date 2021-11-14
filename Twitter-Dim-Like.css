@@ -10,12 +10,12 @@
     --text-search-placeholder: #8899A6;
     /* Boarder */
     --multibar: #3D5466;
+    --border: #38444D;
     /* old */
     --background2: #1C2732;
     --background3: #1A2734;
     --highlight: hsl(51, 61%, 22%);
     --text2: #8393A1;
-    --border: #38444D;
     --border2: #3D5466
 }
 
@@ -35,7 +35,8 @@
 
 .rm-reference-item,
 .rm-embed-container,
-.rm-inline-references {
+.rm-inline-references,
+.cm-focused .cm-activeLine {
     background: var(--background-reference) !important;
 }
 
@@ -47,16 +48,13 @@ svg[id^="mermaid"] {
     background: var(--background) !important;
 }
 
-.cm-focused .cm-activeLine {
-    background: var(--background-reference) !important;
-}
-
 
 /* Text */
 
 .roam-body,
 .roam-app,
 .rm-title-display,
+.rm-title-textarea,
 #find-or-create-input {
     color: var(--text) !important;
 }
@@ -80,6 +78,23 @@ svg[id^="mermaid"] {
 
 .rm-multibar {
     border-color: var(--multibar) !important;
+}
+
+.roam-body {
+    border-top: 1px solid var(--border) !important;
+}
+
+.roam-sidebar-content {
+    border-right: 1px solid var(--border) !important;
+}
+
+#right-sidebar {
+    border-left: 1px solid var(--border) !important;
+}
+
+.rm-topbar,
+.rm-sidebar-window {
+    border-bottom: 1px solid var(--border) !important;
 }
 
 
@@ -161,25 +176,8 @@ a {
     border-radius: 0px !important;
 }
 
-.rm-topbar,
-.rm-sidebar-window {
-    border-bottom: 2px solid var(--border) !important;
-}
-
-.roam-sidebar-content {
-    border-right: 2px solid var(--border) !important;
-}
-
-#right-sidebar {
-    border-left: 2px solid var(--border) !important;
-}
-
 .bp3-datepicker {
     border-radius: 0px !important;
-}
-
-.rm-multibar {
-    border-right: 2px solid var(--border2) !important;
 }
 
 .roam-table th,
