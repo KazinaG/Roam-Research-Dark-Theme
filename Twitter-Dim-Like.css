@@ -185,14 +185,3 @@ a {
 .roam-table tr {
     border: 1px solid var(--border2) !important;
 }
-
-
-/* Table */
-
-.roam-table {
-    overflow: auto;
-}
-
-.roam-table td {
-    overflow: auto;
-}
